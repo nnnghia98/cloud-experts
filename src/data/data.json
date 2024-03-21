@@ -1,0 +1,172 @@
+{
+  "course_name": "Architecting on AWS",
+  "course_code": "AWS-ARC",
+  "training_schedule": [
+    {
+      "day": 1,
+      "modules": [
+        {
+          "module_number": 1,
+          "module_title": "Architecting Fundamentals",
+          "topics": [
+            "AWS services",
+            "AWS infrastructure",
+            "AWS Well-Architected Framework",
+            "Hands-on lab: Explore and interact with the AWS Management Console and AWS Command Line Interface"
+          ]
+        },
+        {
+          "module_number": 2,
+          "module_title": "Account Security",
+          "topics": [
+            "Principals and identities",
+            "Security policies",
+            "Managing multiple accounts"
+          ]
+        },
+        {
+          "module_number": 3,
+          "module_title": "Networking 1",
+          "topics": [
+            "IP addressing",
+            "VPC fundamentals",
+            "VPC traffic security"
+          ]
+        },
+        {
+          "module_number": 4,
+          "module_title": "Compute",
+          "topics": [
+            "Compute services",
+            "EC2 instances",
+            "Storage for EC2 instances",
+            "Amazon EC2 pricing options",
+            "AWS Lambda",
+            "Hands-On Lab: Build your Amazon VPC infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "modules": [
+        {
+          "module_number": 5,
+          "module_title": "Storage",
+          "topics": [
+            "Storage services",
+            "Amazon S3",
+            "Shared file systems",
+            "Data migration tools"
+          ]
+        },
+        {
+          "module_number": 6,
+          "module_title": "Database Services",
+          "topics": [
+            "Database services",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "Database caching",
+            "Database migration tools",
+            "Hands-on Lab: Create a database layer in your Amazon VPC infrastructure"
+          ]
+        },
+        {
+          "module_number": 7,
+          "module_title": "Monitoring and Scaling",
+          "topics": [
+            "Monitoring",
+            "Alarms and events",
+            "Load balancing",
+            "Auto scaling",
+            "Hands-on Lab: Configure high availability in your Amazon VPC"
+          ]
+        },
+        {
+          "module_number": 8,
+          "module_title": "Automation",
+          "topics": ["AWS CloudFormation", "Infrastructure management"]
+        },
+        {
+          "module_number": 9,
+          "module_title": "Containers",
+          "topics": ["Microservices", "Containers", "Container services"]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "modules": [
+        {
+          "module_number": 10,
+          "module_title": "Networking 2",
+          "topics": [
+            "VPC endpoints",
+            "VPC peering",
+            "Hybrid networking",
+            "AWS Transit Gateway"
+          ]
+        },
+        {
+          "module_number": 11,
+          "module_title": "Serverless",
+          "topics": [
+            "What is serverless?",
+            "Amazon API Gateway",
+            "Amazon SQS",
+            "Amazon SNS",
+            "Amazon Kinesis",
+            "AWS Step Functions",
+            "Hands-on Lab: Build a serverless architecture"
+          ]
+        },
+        {
+          "module_number": 12,
+          "module_title": "Edge Services",
+          "topics": [
+            "Edge fundamentals",
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "DDoS protection",
+            "AWS Outposts",
+            "Hands-On Lab: Configure an Amazon CloudFront distribution with an Amazon S3 origin"
+          ]
+        },
+        {
+          "module_number": 13,
+          "module_title": "Backup and Recovery",
+          "topics": [
+            "Disaster planning",
+            "AWS Backup",
+            "Recovery strategies",
+            "Hands-on Lab: Capstone lab – Build an AWS Multi-Tier architecture. Participants review the concepts and services learned in class and build a solution based on a scenario. The lab environment provides partial solutions to promote analysis and reflection. Participants deploy a highly available architecture. The instructor is available for consultations"
+          ]
+        }
+      ]
+    }
+  ],
+  "audience": "This course is intended for:\n\n- Solution architects\n- Solution-design engineers\n- Developers seeking an understanding of AWS architecting\n- Individuals seeking the AWS Solutions Architect-Associate certification",
+  "prerequisites": "We recommend that attendees of this course have:\n\n- Completed AWS Cloud Practitioner Essentials, or AWS Technical Essentials\n- Working knowledge of distributed systems\n- Familiarity with general networking concepts\n- Familiarity with IP addressing\n- Working knowledge of multi-tier architectures\n- Familiarity with cloud computing concepts",
+  "certification": "AWS Certified Solutions Architect – Associate",
+  "overview": {
+    "duration": "3.0 days",
+    "detail": "Architecting on AWS is for solutions architects, solution-design engineers, and developers seeking an understanding of AWS architecting. In this course, you will learn to identify services and features to build resilient, secure, and highly available IT solutions on the AWS Cloud.\n\nArchitectural solutions differ depending on industry, types of applications, and business size. AWS Authorized Instructors emphasize best practices using the AWS Well-Architected Framework, and guide you through the process of designing optimal IT solutions based on real-life scenarios. The modules focus on account security, networking, compute, storage, databases, monitoring, automation, containers, serverless architecture, edge services, and backup and recovery. At the end of the course, you will practice building a solution and apply what you have learned."
+  },
+  "objectives": [
+    "Identify AWS architecting basic practices",
+    "Summarize the fundamentals of account security",
+    "Identify strategies to build a secure virtual network that includes private and public subnets",
+    "Practice building a multi-tier architecture in AWS",
+    "Identify strategies to select the appropriate compute resources based on business use cases",
+    "Compare and contrast AWS storage products and services based on business scenarios",
+    "Compare and contrast AWS database services based on business needs",
+    "Identify the role of monitoring, load balancing, and auto scaling responses based on business needs",
+    "Identify and discuss AWS automation tools that will help you build, maintain, and evolve your infrastructure",
+    "Discuss hybrid networking, network peering, and gateway and routing solutions to extend and secure your infrastructure",
+    "Explore AWS container services for the rapid implementation of an infrastructure-agnostic, portable application environment",
+    "Identify the business and security benefits of AWS serverless services based on business examples",
+    "Discuss the ways in which AWS edge services address latency and security",
+    "Explore AWS backup, recovery solutions, and best practices to ensure resiliency and business continuity"
+  ]
+}
